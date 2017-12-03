@@ -11,13 +11,13 @@ return [
             'v1/stark',
             ]
     ],
-    // [
-    //     'class' => 'yii\rest\UrlRule',
-    //     'controller' => [
-    //         'v1/article'
-    //     ],
-    //     'extraPatterns' => [
-    //         'GET index' => 'index',
-    //     ]
-    // ],
+    [
+        'class' => 'yii\rest\UrlRule',
+        'controller' => [
+            'v1/article'
+        ],
+        'extraPatterns' => [
+            'POST create' => 'create',
+        ]
+    ],
 ];
