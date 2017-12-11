@@ -18,6 +18,30 @@ return [
         ],
         'extraPatterns' => [
             'POST create' => 'create',
+            'GET desc' => 'desc',
+            'GET list' => 'list',
+        ]
+    ],
+    [
+        'class' => 'yii\rest\UrlRule',
+        'controller' => [
+            'v1/tag'
+        ],
+        'extraPatterns' => [
+            'POST create' => 'create',
+            'GET desc' => 'desc',
+            'GET list' => 'list',
+        ]
+    ],
+    [
+        'class' => 'yii\rest\UrlRule',
+        'controller' => [
+            'v1/category'
+        ],
+        'extraPatterns' => [
+            'POST create' => 'create',
+            'GET desc' => 'desc',
+            'GET list' => 'list',
         ]
     ],
 ];
